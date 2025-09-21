@@ -36,17 +36,18 @@ Vamos a crear el típico Hola Mundo y para ello:
   * Abrir la carpeta que acabamos de crear
   * Crear una carpeta nueva _holamundo_
   * Crear el archivo _holamundo.cs_
+    [!NOTE]
+    En el README de su GitHub este archivo no se crea
 * Abrir la consola del VSCode
-  * Comprobar la versión del SDK
-    * _dotnet --version_
-  * Crear el _Program.cs_ y el _holamundo.csproj_
-    * _dotnet new console_
+  * Comprobar la versión del SDK: `dotnet --version`
+  * Crear el _Program.cs_ y el _holamundo.csproj_: `dotnet new console`
 * Copiamos el contenido del archivo _Program.cs_ del repositorio y lo pegamos en el que tenemos en VSCode y lo guardamos
 * Volvemos a la consola
-  * Compilar y crear el .exe
-    * _dotnet build
-  * Ir al directorio _bin\Debug\net8.0 y ejecutar el archivo
-    * _.\holamundo.exe_
+  * Compilar y crear el .exe: `dotnet build`
+  * Ir al directorio _bin\Debug\net8.0 y ejecutar el archivo: `.\holamundo.exe`
+
+>[!WARNING]
+>En  el README de su GitHub no se crea el archivo _holamundo.cs_ y la ejecución se hace desde el mismo directorio ejecutando `dotnet run`. No haría falta compilar.
 
 # Módulo transversal de Orientación Laboral
 Aprovecha el módulo transversal para contar experiencias personales.
